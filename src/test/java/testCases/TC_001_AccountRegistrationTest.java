@@ -21,7 +21,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass{
 		hp.clickRegister();
 		logger.info("clicked on Register link");
 		AccountRegistrationPage ar= new AccountRegistrationPage(driver);
-		logger.info("Providing Customer details.....");
+		logger.info("Providing Customer details.......");
 		ar.setFirstname(randomString());
 		ar.setLastname(randomString());
 		ar.setEmail(randomAlphaNumeric()+"@gmail.com");
