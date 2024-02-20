@@ -98,5 +98,10 @@
 
 
 
+  	<dependency>
+  		<groupId>cucumber_framework</groupId>
+  		<artifactId>cucumber_framework</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
